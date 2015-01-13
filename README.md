@@ -1,7 +1,8 @@
 kwassa_backend
 ==============
 
-Route /bestalbums/byyear/<int:year>/ returns sorted list of reviews from pitchfork's best new albums. MongoDb holds collection of review docs, which were scraped using https://github.com/amend/pitchfork-scrapy
+Route /bestalbums/byyear/<int:year>/
+returns sorted list of reviews from pitchfork's best new albums. MongoDb holds collection of review docs, which were scraped using https://github.com/amend/pitchfork-scrapy
 
 Example:
 http://54.191.36.11/bestalbums/byyear/2014/
